@@ -1,16 +1,28 @@
-# Movie App
+# 🎬 Movie App
 
-## Overview
-
-Movie App is a starter project built with React + Vite.  
-This repository contains the base project setup ready for further development.
+A modern movie web application built with React and Vite, styled using Tailwind CSS.  
+The project is prepared with a clean and scalable setup, including a ready-to-use styling system and theme support foundation.
 
 ---
 
-## Project Setup
+## 🚀 Tech Stack
 
-### 1. Clone the Repository
+- ⚛️ React
+- ⚡️ Vite
+- 🎨 Tailwind CSS
+- 🎭 CSS Variables (Theme-ready)
+- 🧱 Clean and scalable architecture
 
-`bash
-git clone https://github.com/Moatasem-Ezzeldin/movie-app.git
-cd movie-app
+---
+
+## 🎨 Styling & Theme Setup
+
+- Tailwind CSS is fully configured and ready to use
+- A dedicated styles system is prepared for global styling
+- Light and Dark themes are defined using data-theme
+- All colors and design tokens are managed via CSS Variables
+- The base theme is applied on app startup for consistent rendering
+
+Example of initial theme application:
+`js
+document.documentElement.setAttribute("data-theme", "light");
