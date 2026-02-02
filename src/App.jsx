@@ -1,11 +1,14 @@
-// ..... src/App.jsx ....
+import { Landing } from './pages/index'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div className='mx-4 text-center'>
-      <div className="text-red-500 animate-moveRight">Movie App</div>
-    </div>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path='/' element={<Landing />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;
